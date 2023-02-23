@@ -1,0 +1,120 @@
+
+*{
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #edf1fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+}
+button{
+    background-color: rgb(18,155,155);
+    padding : 4px 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid  white ;
+    border-radius: 10px;
+    font-weight: 600;
+    width: fit-content;
+}
+
+button:hover{
+    background-color:white;
+    color:rgb(18,155,155);
+    border:1px solid black;
+}
+header{
+    padding :10px 0px;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around; 
+    /* align-items: center; */
+}
+nav .logo{
+    font-weight: 700;
+    /* doubt */
+    font-size: 25px;
+
+}
+nav ul{
+    display: flex;
+    gap:30px;
+    font-weight: 900;
+    /* doubt */
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+.search-field{
+    display: flex;
+    gap: 30px;
+}
+input{
+    padding:4px 10px ;
+}
+section{
+    display: flex;
+    align-items: center;
+}
+.left-sec{
+    width: 50%;
+    padding:0 8%;
+}
+.left-sec h1{
+    font-weight: 800;
+  font-size: 25px;
+  margin-bottom: 16px;
+}
+.left-sec h1 span{
+    color: rgb(18, 155, 155);
+    font-weight: 600;
+    background-color: white;
+    padding:0 15px
+}
+.left-sec h1 p{
+    font-weight: 500;
+    font-size: 30px;
+}
+.left-sec p span{
+    color:rgb(18, 155, 155);
+    background-color: white;
+    font-weight: 700;
+    padding:0 10px
+}
+.right-sec{
+display: flex;
+flex-direction: column;
+width: 50%;
+align-items: center;
+}
+img{
+    padding-bottom: 10px;
+    border-radius: 46%;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 600;
+}
+footer ul {
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    justify-content: space-around;
+}
